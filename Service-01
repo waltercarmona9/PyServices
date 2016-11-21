@@ -1,6 +1,6 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
-html = urlopen("http://www.cooperforte.coop.br")
+html = urlopen("http://www.portaldoagronegocio.com.br/")
 bsObj = BeautifulSoup(html.read(),"lxml");
 print(bsObj)
